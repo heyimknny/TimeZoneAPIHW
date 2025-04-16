@@ -1,5 +1,8 @@
 # API HW Project - Timezone API
 
+## Working IP Address of API
+34.135.182.0
+
 ## How to Use
 
 1. open up your terminal or shell.
