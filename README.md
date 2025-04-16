@@ -2,14 +2,21 @@
 
 ## How to Use
 
-1. Open up your terminal or shell.
-2. Run the following command:
+1. open up your terminal or shell.
+2. run the following command.
 
 ```bash
 curl -H "Authorization: Bearer supersecrettoken123" http://34.135.182.0:5000/api/time/CAPITALCITYHERE
 ```
+## Explanation of command
+- curl: cmd line tool to make http request from terminal
+- -H: includes authorization key header
+- "Authorization: Bearer supersecrettoken123": the header (Authorization Token)
+- http://34.135.182.0:5000/api/time: base url, including public IP address
+- CAPITALCITYHERE: the city paramater you want to check
 
-Make sure to replace CAPITALCITYHERE with one from this list: 
+
+make sure to replace CAPITALCITYHERE with one from this list: 
 
     Beijing
     Tokyo
